@@ -1,0 +1,47 @@
+1- Train a policy: P(s) -> strategy - (threshold,action)
+2- If greater than threshold, adversarial action will be taken.
+3- Optimization function? (negative of reward?), ( explainable AI technique - Wu et al. 2021)
+4- Incorporation of future steps? or is it already incorporated
+5- Tuning Damage?
+
+
+
+How to train this policy?
+
+1- Random intialization to parameters of policy u
+2- for each episode do:
+	n = 0
+	for each step t and current episode not terminated do:
+		p,a' = u(s)
+		if p > 0.5 and n < N:
+			s = RFGSM(s,a')
+			n += 1
+		else:
+			s' = s
+		a'' = u(s)
+		collect (s, p, a, r, s)
+	train policy to update parameters
+
+
+-------------------------
+P means step in an environment
+
+Step 1: calculate baseline st+M state
+for i in max steps:
+	at+i = DQN(st+i)
+	st+i+1 = P(st+i, at+i)
+	st+i = st+i+1
+
+Step 2: create all combinations of actions - size N.
+
+Step 3: calculate the state we will achieve for each strategy, in order to calculate state.
+
+for each attack strategy: 
+	for i in 0...M-1 do:
+		if i < N:
+			at+1 = at+1'
+		else:
+			at+1 = DQN(st+i)
+		st+i+1' = P(st+i', at+i)
+	if T(st+M') - T(st+M) > delta:
+		return strategy

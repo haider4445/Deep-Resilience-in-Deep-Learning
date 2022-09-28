@@ -1,0 +1,9 @@
+1- Load DQN model
+2- if attack: 
+	1- adv_obs = AdversarialObs(orig_obs)
+	2- act = action(adv_obs); orig_act = action(orig_obs)
+	3- if act != orig_act: success += 1
+   else:
+   	orig_act = action(orig_obs)
+3- AdversarialObs(orig_obs):
+	1- 
