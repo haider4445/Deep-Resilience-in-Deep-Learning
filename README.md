@@ -3,8 +3,7 @@
 Haider Ali, Mohannad Al Ameedi, Ananthram Swami, Rui Ning, Jiang Li, Hongyi Wu, Jin-Hee Cho
 
 ### Abstract:
-Existing adversarial algorithms for Deep Reinforce-
-ment Learning (DRL) have largely focused on identifying an
+Existing adversarial algorithms for Deep Reinforcement Learning (DRL) have largely focused on identifying an
 optimal time to attack a DRL agent. However, little work has
 been explored in injecting efficient adversarial perturbations
 in DRL environments. We propose a suite of novel DRL ad-
