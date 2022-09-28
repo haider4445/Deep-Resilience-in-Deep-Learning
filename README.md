@@ -1,5 +1,6 @@
 # Deep-Resilience-in-Deep-Learning
 ### ACADIA: Efficient and Robust Adversarial Attacks Against Deep Reinforcement Learning
+Haider Ali, Mohannad Al Ameedi, Ananthram Swami, Rui Ning, Jiang Li, Hongyi Wu, Jin-Hee Cho
 
 ### Abstract:
 Existing adversarial algorithms for Deep Reinforce-
@@ -25,3 +26,6 @@ outperforms existing gradient-based counterparts under a wide
 range of experimental settings. ACADIA is nine times faster than
 the state-of-the-art Carlini & Wagner (CW) method with better
 performance under defenses of DRL.
+
+
+### Accepted to IEEE Conference on Communications and Network Security (CNS) 2022.
