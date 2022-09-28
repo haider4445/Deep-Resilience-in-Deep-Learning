@@ -28,4 +28,16 @@ the state-of-the-art Carlini & Wagner (CW) method with better
 performance under defenses of DRL.
 
 
-### Accepted to IEEE Conference on Communications and Network Security (CNS) 2022.
+**[ACADIA](https://github.com/haider4445/Deep-Resilience-in-Deep-Learning/blob/main/ACADIA_IEEE_CNS.pdf) got accepted to IEEE Conference on Communications and Network Security (CNS) 2022.**
+
+### Citation:
+
+@article{ali2022acadia,
+  title={ACADIA: Efficient and Robust Adversarial Attacks Against Deep Reinforcement Learning},
+  author={Ali, Haider and Al Ameedi, Mohannad and Swami, Ananthram and Ning, Rui and Li, Jiang and Wu, Hongyi and Cho, Jin-Hee },
+  journal={2022 IEEE Conference on Communications and Network Security (CNS)},
+  year={2022}
+  organization={IEEE}
+}
+
+
