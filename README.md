@@ -30,7 +30,7 @@ performance under defenses of DRL.
 
 **[ACADIA](https://github.com/haider4445/Deep-Resilience-in-Deep-Learning/blob/main/ACADIA_IEEE_CNS.pdf) got accepted to IEEE Conference on Communications and Network Security (CNS) 2022.**
 
-### Citation:
+### BibTex citation:
 
 @article{ali2022acadia,
   title={ACADIA: Efficient and Robust Adversarial Attacks Against Deep Reinforcement Learning},
