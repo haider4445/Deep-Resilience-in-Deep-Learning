@@ -33,17 +33,11 @@ performance under defenses of DRL.
 ### Citation:
 
 @article{ali2022acadia,
-
   title={ACADIA: Efficient and Robust Adversarial Attacks Against Deep Reinforcement Learning},
-  
   author={Ali, Haider and Al Ameedi, Mohannad and Swami, Ananthram and Ning, Rui and Li, Jiang and Wu, Hongyi and Cho, Jin-Hee },
-  
   journal={2022 IEEE Conference on Communications and Network Security (CNS)},
-  
   year={2022},
-  
   organization={IEEE}
-  
 }
 
 
